@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.selected {
+  background: #0078BF;
+  color: #fff;
+}
+
+.selected:hover {
+  background: #0078BF !important;
+  color: #fff !important;
+}
+
+.form-control, .form-select{
+  width: 50% !important;
+}
+
+.checkboxChild {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+.checkboxChild > label {
+display: flex;
+flex-direction: row-reverse;
+}
+
+tr {
+  align-items: center;
+}
